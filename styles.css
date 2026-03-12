@@ -256,3 +256,18 @@ body{
   from{opacity:0}
   to{opacity:1}
 }
+.random-message{
+position:fixed;
+background:linear-gradient(#d8f7ae,#9eea49);
+border:2px solid #1c1c1c;
+border-radius:25px;
+padding:10px 16px;
+font-size:18px;
+animation:pop 0.4s ease;
+z-index:1000;
+}
+
+@keyframes pop{
+from{transform:scale(0)}
+to{transform:scale(1)}
+}
