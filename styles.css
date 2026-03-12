@@ -435,3 +435,9 @@ backdrop-filter:blur(8px);
 body{
 font-family:"Comic Sans MS", "Arial Rounded MT", sans-serif;
 }
+audio{
+position:fixed;
+bottom:20px;
+right:20px;
+width:220px;
+}
