@@ -366,3 +366,25 @@ width:50px;
 height:50px;
 cursor:pointer;
 }
+.bunny-pop{
+position:fixed;
+font-size:20px;
+pointer-events:none;
+animation:bunnyPop 1s forwards;
+}
+
+@keyframes bunnyPop{
+from{
+transform:scale(0);
+opacity:1;
+}
+to{
+transform:scale(2) translateY(-40px);
+opacity:0;
+}
+}
+.minji .bubble{background:#d8e6ff}
+.hanni .bubble{background:#ffe9d8}
+.danielle .bubble{background:#fff4c8}
+.haerin .bubble{background:#d8ffd8}
+.hyein .bubble{background:#ffd8f2}
