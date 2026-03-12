@@ -431,3 +431,8 @@ text-align:center;
 width:120px;
 border-radius:50%;
 }
+.chat-wrap{
+height:70vh;
+overflow-y:auto;
+padding:20px;
+}
