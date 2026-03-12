@@ -151,16 +151,7 @@ body {
   min-height: 100vh;
 
   background-image: url("newjeans.light.png");
-  background-size: cover;
+  background-repeat: repeat;   /* repeats the pattern */
+  background-size: 420px;      /* controls pattern size */
   background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background: rgba(255,255,255,0.35);
-  backdrop-filter: blur(2px);
-  z-index: -1;
 }
