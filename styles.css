@@ -155,3 +155,11 @@ body {
   background-size: 420px;      /* controls pattern size */
   background-position: center;
 }
+body {
+  animation: wallpaperMove 120s linear infinite;
+}
+
+@keyframes wallpaperMove {
+  from { background-position: 0 0; }
+  to { background-position: 1000px 1000px; }
+}
