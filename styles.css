@@ -380,3 +380,10 @@ body::before {
     padding: 8px 12px;
   }
 }
+:root{
+--blue:#cfe9ff;
+--pink:#ffd6e7;
+--mint:#dff8ef;
+--yellow:#fff4c8;
+--purple:#e5d9ff;
+}
