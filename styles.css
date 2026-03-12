@@ -248,3 +248,11 @@ audio{
   bottom:20px;
   right:20px;
 }
+body{
+  animation: fadein .6s;
+}
+
+@keyframes fadein{
+  from{opacity:0}
+  to{opacity:1}
+}
