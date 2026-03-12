@@ -163,3 +163,20 @@ body {
   from { background-position: 0 0; }
   to { background-position: 1000px 1000px; }
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+
+  background-image: url("newjeans.light.png");
+  background-repeat: repeat;
+  background-size: 400px;
+}
+
+.chat-wrap {
+  text-align: center;
+}
