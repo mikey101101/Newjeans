@@ -436,3 +436,13 @@ height:70vh;
 overflow-y:auto;
 padding:20px;
 }
+.chat-header{
+position:sticky;
+top:0;
+background:white;
+padding:10px;
+display:flex;
+gap:10px;
+align-items:center;
+border-bottom:1px solid #ddd;
+}
