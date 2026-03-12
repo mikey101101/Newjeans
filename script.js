@@ -118,3 +118,9 @@ setInterval(cycleChat, 2500);
 window.addEventListener("load", () => {
   for (let i = 0; i < 3; i++) cycleChat();
 });
+const music=document.getElementById("music");
+const btn=document.getElementById("musicBtn");
+
+btn.onclick=()=>{
+music.paused?music.play():music.pause();
+}
