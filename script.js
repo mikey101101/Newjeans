@@ -137,3 +137,9 @@ document.body.appendChild(bunny);
 
 setTimeout(()=>bunny.remove(),1000);
 });
+const pop=new Audio("pop.mp3");
+
+function playPop(){
+pop.currentTime=0;
+pop.play();
+}
