@@ -478,3 +478,12 @@ animation:typing 1.2s infinite;
 50%{opacity:1}
 100%{opacity:.3}
 }
+body{
+background: linear-gradient(
+135deg,
+#ffd6e7,
+#d8ecff,
+#dff8ef,
+#fff4c8
+);
+}
