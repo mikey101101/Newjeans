@@ -180,3 +180,8 @@ body {
 .chat-wrap {
   text-align: center;
 }
+.msg {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
