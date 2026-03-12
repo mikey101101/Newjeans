@@ -185,3 +185,12 @@ body {
   justify-content: center;
   margin: 20px 0;
 }
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0;
+  border: 1px solid #ccc;
+}
