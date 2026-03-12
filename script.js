@@ -151,3 +151,9 @@ pop.play();
 }
 const random = chatLines[Math.floor(Math.random()*chatLines.length)];
 addChatMessage(random);
+document.querySelectorAll(".reaction").forEach(r=>{
+r.addEventListener("click",()=>{
+r.style.transform="scale(1.4)";
+setTimeout(()=>r.style.transform="scale(1)",200);
+});
+});
