@@ -6,104 +6,83 @@
   <title>NewJeans Chat Archive</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-  <script src="script.js"></script>
-  <div class="chat-header">
-  <img src="images/minji.jpg">
-  <span>NewJeans Group Chat</span>
-</div>
-<body>
-  <body>
-    <img id="cursor" src="bunny.png">
-  <div id="bunny">🐰</div>
-  <div id="notification"></div>
+<body class="home-page">
+  <img id="cursor" src="bunny.png" alt="Bunny cursor" />
 
-  <div class="floating-chat">
+  <div class="floating-chat" aria-hidden="true">
     <div class="float-bubble">boba!!! 🧋</div>
     <div class="float-bubble">hehe</div>
     <div class="float-bubble">와</div>
-    <div class="float-bubble">오늘 boba party<3</div>
+    <div class="float-bubble">오늘 boba partyyyyy</div>
     <div class="float-bubble">bubble tea time</div>
   </div>
 
-  <div class="chat-wrap">
-    <h1 class="title">NewJeans Chat Archive</h1>
-    <p class="note">Live group chat</p>
+  <div id="notification"></div>
 
-    <div id="live-chat"></div>
-
-    <div class="msg">
-      <img class="avatar" src="images/minji.jpg" alt="Minji avatar" />
-      <div class="msg-content">
-        <div class="name">Minji</div>
-        <a href="minji.html" class="bubble small">Open Minji's page</a>
+  <main class="page-shell">
+    <section class="chat-panel">
+      <div class="chat-header">
+        <div class="chat-header-left">
+          <div class="chat-dot"></div>
+          <div>
+            <h1>NewJeans Chat Archive</h1>
+            <p>Live group chat</p>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="msg">
-      <img class="avatar" src="images/hanni.jpg" alt="Hanni avatar" />
-      <div class="msg-content">
-        <div class="name">Hanni</div>
-        <a href="hanni.html" class="bubble small">Open Hanni's page</a>
-      </div>
-    </div>
+      <div id="live-chat" class="live-chat"></div>
 
-    <div class="msg">
-      <img class="avatar" src="images/danielle.jpg" alt="Danielle avatar" />
-      <div class="msg-content">
-        <div class="name">Danielle</div>
-        <a href="danielle.html" class="bubble small">Open Danielle's page</a>
+      <div id="typing" class="typing hidden">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-    </div>
 
-    <div class="msg">
-      <img class="avatar" src="images/haerin.jpg" alt="Haerin avatar" />
-      <div class="msg-content">
-        <div class="name">Haerin</div>
-        <a href="haerin.html" class="bubble small">Open Haerin's page</a>
-      </div>
-    </div>
+      <div class="member-links">
+        <div class="msg">
+          <img class="avatar" src="images/minji.jpg" alt="Minji avatar" />
+          <div class="msg-content">
+            <div class="name">Minji</div>
+            <a href="minji.html" class="bubble small link-bubble">Open Minji's page</a>
+          </div>
+        </div>
 
-    <div class="msg">
-      <img class="avatar" src="images/hyein.jpg" alt="Hyein avatar" />
-      <div class="msg-content">
-        <div class="name">Hyein</div>
-        <a href="hyein.html" class="bubble small">Open Hyein's page</a>
+        <div class="msg">
+          <img class="avatar" src="images/hanni.jpg" alt="Hanni avatar" />
+          <div class="msg-content">
+            <div class="name">Hanni</div>
+            <a href="hanni.html" class="bubble small link-bubble">Open Hanni's page</a>
+          </div>
+        </div>
+
+        <div class="msg">
+          <img class="avatar" src="images/danielle.jpg" alt="Danielle avatar" />
+          <div class="msg-content">
+            <div class="name">Danielle</div>
+            <a href="danielle.html" class="bubble small link-bubble">Open Danielle's page</a>
+          </div>
+        </div>
+
+        <div class="msg">
+          <img class="avatar" src="images/haerin.jpg" alt="Haerin avatar" />
+          <div class="msg-content">
+            <div class="name">Haerin</div>
+            <a href="haerin.html" class="bubble small link-bubble">Open Haerin's page</a>
+          </div>
+        </div>
+
+        <div class="msg">
+          <img class="avatar" src="images/hyein.jpg" alt="Hyein avatar" />
+          <div class="msg-content">
+            <div class="name">Hyein</div>
+            <a href="hyein.html" class="bubble small link-bubble">Open Hyein's page</a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-<div id="typing">
-  <span></span>
-  <span></span>
-  <span></span>
-</div>
+    </section>
+  </main>
+
   <script src="script.js"></script>
 </body>
-<div id="typing">
-  <span></span>
-  <span></span>
-  <span></span>
-</div>
-<button id="musicBtn">🎵</button>
-
-<audio id="music" loop>
-<source src="hypeboy.mp3">
-</audio>
-<div class="bubble-bg"></div>
-<div class="bubble-bg"></div>
-<div class="bubble-bg"></div>
-<div id="profilePopup" class="profile-popup">
-  <div class="profile-card">
-    <img id="profileImg">
-    <h2 id="profileName"></h2>
-    <p>NewJeans member</p>
-    <button onclick="closeProfile()">Close</button>
-  </div>
-</div>
-<div id="profilePopup" class="profile-popup">
-  <div class="profile-card">
-    <img id="profileImg">
-    <h2 id="profileName"></h2>
-    <p>NewJeans member</p>
-    <button onclick="closeProfile()">Close</button>
-  </div>
-</div>
+</html>
