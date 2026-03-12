@@ -243,3 +243,8 @@ body {
   from { transform: translateY(0); }
   to { transform: translateY(-120vh); }
 }
+audio{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+}
