@@ -149,3 +149,5 @@ function playPop(){
 pop.currentTime=0;
 pop.play();
 }
+const random = chatLines[Math.floor(Math.random()*chatLines.length)];
+addChatMessage(random);
