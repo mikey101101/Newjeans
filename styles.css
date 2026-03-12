@@ -502,3 +502,14 @@ border:2px solid #1c1c1c;
 font-family:"Comic Sans MS", cursive;
 letter-spacing:1px;
 }
+body::after{
+content:"";
+position:fixed;
+inset:0;
+background:
+radial-gradient(circle at 20% 30%, #ffd6e7 0 60px, transparent 60px),
+radial-gradient(circle at 70% 70%, #d8ecff 0 60px, transparent 60px),
+radial-gradient(circle at 50% 10%, #dff8ef 0 60px, transparent 60px);
+opacity:.4;
+pointer-events:none;
+}
