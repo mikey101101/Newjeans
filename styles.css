@@ -487,3 +487,14 @@ background: linear-gradient(
 #fff4c8
 );
 }
+.bubble{
+background: linear-gradient(
+135deg,
+#d8f7ae,
+#9eea49,
+#7be0ff
+);
+border-radius:25px;
+padding:14px 20px;
+border:2px solid #1c1c1c;
+}
