@@ -401,3 +401,13 @@ animation:float 20s linear infinite;
 from{transform:translateY(100vh)}
 to{transform:translateY(-100vh)}
 }
+.reactions{
+margin-top:5px;
+font-size:14px;
+display:flex;
+gap:6px;
+}
+
+.reaction{
+cursor:pointer;
+}
