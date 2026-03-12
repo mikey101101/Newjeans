@@ -271,3 +271,16 @@ z-index:1000;
 from{transform:scale(0)}
 to{transform:scale(1)}
 }
+#notification{
+position:fixed;
+bottom:30px;
+left:50%;
+transform:translateX(-50%);
+background:linear-gradient(#d8f7ae,#9eea49);
+border:2px solid #1c1c1c;
+border-radius:30px;
+padding:12px 20px;
+font-size:18px;
+opacity:0;
+transition:opacity .3s;
+}
