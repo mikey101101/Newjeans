@@ -30,3 +30,17 @@ document.addEventListener("mousemove",(e)=>{
 bunny.style.left = e.clientX + 15 + "px";
 bunny.style.top = e.clientY + 15 + "px";
 });
+const notification = document.getElementById("notification");
+
+function showNotification(text){
+notification.innerText = text;
+notification.style.opacity = "1";
+
+setTimeout(()=>{
+notification.style.opacity = "0";
+},3000);
+}
+
+setInterval(()=>{
+showNotification(messages[Math.floor(Math.random()*messages.length)]);
+},7000);
