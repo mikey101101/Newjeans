@@ -157,3 +157,12 @@ r.style.transform="scale(1.4)";
 setTimeout(()=>r.style.transform="scale(1)",200);
 });
 });
+function openProfile(name,img){
+document.getElementById("profilePopup").style.display="flex";
+document.getElementById("profileName").innerText=name;
+document.getElementById("profileImg").src=img;
+}
+
+function closeProfile(){
+document.getElementById("profilePopup").style.display="none";
+}
