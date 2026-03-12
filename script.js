@@ -24,3 +24,9 @@ function spawnMessage(){
 }
 
 setInterval(spawnMessage,3000);
+const bunny = document.getElementById("bunny");
+
+document.addEventListener("mousemove",(e)=>{
+bunny.style.left = e.clientX + 15 + "px";
+bunny.style.top = e.clientY + 15 + "px";
+});
