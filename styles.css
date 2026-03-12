@@ -432,3 +432,6 @@ border-radius:20px;
 padding:20px;
 backdrop-filter:blur(8px);
 }
+body{
+font-family:"Comic Sans MS", "Arial Rounded MT", sans-serif;
+}
