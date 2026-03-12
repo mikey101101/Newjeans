@@ -44,3 +44,17 @@ notification.style.opacity = "0";
 setInterval(()=>{
 showNotification(messages[Math.floor(Math.random()*messages.length)]);
 },7000);
+const notification = document.getElementById("notification");
+
+function showNotification(text){
+notification.innerText = text;
+notification.style.opacity = "1";
+
+setTimeout(()=>{
+notification.style.opacity = "0";
+},3000);
+}
+
+setInterval(()=>{
+showNotification(messages[Math.floor(Math.random()*messages.length)]);
+},7000);
