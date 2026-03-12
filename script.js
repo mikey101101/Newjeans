@@ -173,3 +173,15 @@ document.addEventListener("mousemove", e => {
   cursor.style.left = e.clientX + "px";
   cursor.style.top = e.clientY + "px";
 });
+function fakeTyping(){
+const typing = document.getElementById("typing");
+
+typing.style.display="flex";
+
+setTimeout(()=>{
+typing.style.display="none";
+spawnMessage();
+},2000);
+}
+
+setInterval(fakeTyping,6000);
