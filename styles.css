@@ -426,3 +426,9 @@ animation:float 15s linear infinite;
 from{transform:translateY(100vh)}
 to{transform:translateY(-100vh)}
 }
+.panel{
+background:rgba(255,255,255,0.7);
+border-radius:20px;
+padding:20px;
+backdrop-filter:blur(8px);
+}
