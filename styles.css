@@ -446,3 +446,13 @@ gap:10px;
 align-items:center;
 border-bottom:1px solid #ddd;
 }
+body {
+  cursor: none;
+}
+
+#cursor {
+  position: fixed;
+  width: 32px;
+  pointer-events: none;
+  z-index: 9999;
+}
