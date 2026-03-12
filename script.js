@@ -124,3 +124,16 @@ const btn=document.getElementById("musicBtn");
 btn.onclick=()=>{
 music.paused?music.play():music.pause();
 }
+document.addEventListener("click",(e)=>{
+const bunny=document.createElement("div");
+
+bunny.innerText="🐰";
+bunny.className="bunny-pop";
+
+bunny.style.left=e.clientX+"px";
+bunny.style.top=e.clientY+"px";
+
+document.body.appendChild(bunny);
+
+setTimeout(()=>bunny.remove(),1000);
+});
