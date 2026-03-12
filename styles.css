@@ -387,3 +387,11 @@ body::before {
 --yellow:#fff4c8;
 --purple:#e5d9ff;
 }
+body{
+background:linear-gradient(
+135deg,
+var(--blue),
+var(--pink),
+var(--mint)
+);
+}
