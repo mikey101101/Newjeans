@@ -228,3 +228,18 @@ body {
     opacity: 1;
   }
 }
+.boba {
+  position: fixed;
+  font-size: 28px;
+  animation: float 20s linear infinite;
+  opacity: 0.4;
+}
+
+.boba:nth-child(1){left:10%; bottom:-40px}
+.boba:nth-child(2){left:60%; bottom:-40px; animation-delay:6s}
+.boba:nth-child(3){left:80%; bottom:-40px; animation-delay:12s}
+
+@keyframes float {
+  from { transform: translateY(0); }
+  to { transform: translateY(-120vh); }
+}
