@@ -143,3 +143,9 @@ function playPop(){
 pop.currentTime=0;
 pop.play();
 }
+const pop=new Audio("pop.mp3");
+
+function playPop(){
+pop.currentTime=0;
+pop.play();
+}
