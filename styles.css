@@ -388,3 +388,16 @@ opacity:0;
 .danielle .bubble{background:#fff4c8}
 .haerin .bubble{background:#d8ffd8}
 .hyein .bubble{background:#ffd8f2}
+.bubble-bg{
+position:fixed;
+width:40px;
+height:40px;
+background:rgba(255,255,255,0.5);
+border-radius:50%;
+animation:float 20s linear infinite;
+}
+
+@keyframes float{
+from{transform:translateY(100vh)}
+to{transform:translateY(-100vh)}
+}
