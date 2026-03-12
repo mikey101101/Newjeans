@@ -166,3 +166,4 @@ document.getElementById("profileImg").src=img;
 function closeProfile(){
 document.getElementById("profilePopup").style.display="none";
 }
+liveChat.scrollTop = liveChat.scrollHeight;
